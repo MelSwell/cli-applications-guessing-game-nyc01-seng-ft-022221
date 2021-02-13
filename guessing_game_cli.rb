@@ -11,7 +11,5 @@ def run_guessing_game
     puts "Sorry! The computer guess #{target}."
 end
 
-def prompt_user
-  puts "Guess a number between 1 and 6"
-end
+
 
