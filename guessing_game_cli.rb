@@ -1,4 +1,5 @@
 # Code your solution here!
+=begin
 def run_guessing_game
   target = rand(1..6)
   puts "Guess a number between 1 and 6:"
@@ -11,8 +12,8 @@ def run_guessing_game
     puts "Sorry! The computer guessed #{target}."
   end
 end
+=end
 
-=begin
 def run_guessing_game
   rando = rand(6)+1
   puts "Guess a number between 1 and 6:"
@@ -25,6 +26,6 @@ def run_guessing_game
     puts "Sorry! The computer guessed #{rando}."
   end
 end
-=end
+
 
 
