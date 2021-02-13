@@ -3,6 +3,8 @@ def run_guessing_game
   target = rand(1..6)
   prompt_user
   input = get_user_input
+  case input
+  when 
 end
 
 def prompt_user
