@@ -3,12 +3,14 @@ def run_guessing_game
   target = rand(1..6)
   prompt_user
   input = get_user_input
+  if input == "exit"
+    puts "Goodbye!"
+  end
   if input == target
     puts "You guessed the right number!"
-  elsif input != target
-    puts "Sorry! The computer guessed #{target}."
-  elsif input == "exit"
-    puts "Goodbye!"
+  end
+  if input != target
+    puts "Sorry! The computer guess #{target}."
   end
 end
 
