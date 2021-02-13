@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-  target = rand(1..6)
+  target = rand(1..6).to_s
   prompt_user
   input = get_user_input
   if input == "exit"
