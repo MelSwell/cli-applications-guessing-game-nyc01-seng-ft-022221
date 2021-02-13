@@ -15,10 +15,10 @@ end
 =end
 
 def run_guessing_game
-  target = rand(6)+1.to_s
+  target = rand(6)+1
   puts "Guess a number between 1 and 6:"
   input = gets.chomp
-  if input == target
+  if input == target.to_s
     puts "You guessed the correct number!"
   elsif input.downcase == "exit"
     puts "Goodbye!"
