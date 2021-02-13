@@ -10,7 +10,7 @@ def run_guessing_game
     puts "You guessed the right number!"
   end
   if input != target
-    puts "Sorry! The computer guess #{target}."
+    puts "Sorry! The computer guessed #{target}."
   end
 end
 
