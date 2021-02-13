@@ -3,8 +3,11 @@ def run_guessing_game
   target = rand(1..6)
   prompt_user
   input = get_user_input
-  case input
-  when 
+  if input == target
+    puts "You guessed the right number!"
+  elsif input != target
+    puts "Sorry! The computer guessed #{target}."
+  end
 end
 
 def prompt_user
